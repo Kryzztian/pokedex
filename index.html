@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <script src="bideo.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <iframe src="silence.mp3" allow="autoplay" id="audio">
+    </iframe> -->
+    <audio id="audio">
+        <source src="pokedexMusic.mp3" type="audio/mpeg">
+    </audio>
+    <div id="container">
+        <video id="background_video" loop muted></video>
+        <div id="videoCover"></div>
+    </div>
+    <div class="parent">
+        <div class="div1 filler"> </div>
+        <div class="div2 centerFiller">
+            <div class="imageOne">
+                <img src="Kalos-upperhalf2.png" alt="">
+                <div class="glass">     
+                </div>
+                <input id ="textBox" type="text">
+            </div>
+        </div>
+        <div class="div3 filler"></div>
+        <!-- <div class="div4 filler"></div>
+        <div class="div5 centerFiller" id="middleGrid"></div>
+        <div class="div6 filler"> </div> -->
+        <div class="div7 filler"> </div>
+        <div class="div8 centerFiller">
+            <div class="background">
+                <img src="Pikachu.png" alt="pikachu" class="pikachu">
+                <button disabled id="pokeButton">Search</button>
+            </div>
+            <div class="imageTwo">
+                <img src="Kalos-lowerhalf2.png" alt="">
+            </div>
+        </div>
+        <div class="div9 filler"></div>
+    </div>
+</body>
+</html>
