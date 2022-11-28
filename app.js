@@ -66,6 +66,7 @@ imageOne.addEventListener("click", removeDisplay);
 imageOne.addEventListener("click", removeClick);
 imageTwo.addEventListener("click", expandPokedex);
 imageTwo.addEventListener("click", playSound);
+imageTwo.addEventListener("click", removeClick);
 body.addEventListener("click", removeDisplay);
 
 
